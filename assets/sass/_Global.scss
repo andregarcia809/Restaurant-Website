@@ -1,0 +1,54 @@
+h5 {
+  color: grey;
+  font-size: .9rem;
+  margin: .5rem 0 1rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: .9rem;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-family: $displayFont;
+  font-size: 3rem;
+  margin: 0.5rem 0 1.5rem;
+  text-transform: capitalize;
+}
+
+p {
+  font-size: .8rem;
+  color: grey;
+  line-height: 2;
+  margin: 0.5rem 0 3rem;
+}
+
+
+  a {
+    color: #fff;
+    transition: all ease-in-out;
+    &:hover {
+      color: $red;
+    }
+ }
+
+strong {
+  color: $black;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+em {
+  font-style: italic;
+}
+.textureBG {
+  height: 900px;
+  padding-top: 150px;
+  background-image:  url("https://background-tiles.com/overview/grey/textures/small/5024.png");
+  background-position: center;
+  background-repeat: repeat;
+}

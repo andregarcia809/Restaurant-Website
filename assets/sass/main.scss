@@ -1,0 +1,26 @@
+@import "reset";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|PT+Sans:400,700|Rozha+One");
+@import "variables";
+@import "Global";
+@import "grid";
+@import "Header";
+@import "TopImg";
+@import "OurStory";
+@import "SpecialMenu";
+@import "RandomQuote";
+@import "ContactUS";
+@import "Reviews";
+@import "Footer";
+@font-face {
+  font-family: road_rage;
+  src: url('/fonts/Road_Rage.otf');
+}
+
+body {
+  font-family: $displayFont;
+  // background: purple;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3636c1+0,161658+100 */
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}

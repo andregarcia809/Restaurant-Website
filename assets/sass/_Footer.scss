@@ -1,0 +1,39 @@
+#Footer {
+   padding: 100px 0;
+   background: $footerBG;
+   width: 100%;
+    text-align: center;
+   nav {
+     display: inline-block;
+     margin: 0 auto 50px;
+     a {
+       color: #fff;
+       display: inline-block;
+       padding: 10px 20px 10px 0;
+       text-decoration: none;
+       word-spacing: 0px;
+       &:hover{
+        color: $red;
+        }
+      }
+     span {
+       padding-right: 20px;
+       color: #fff;
+       font-size: 1.5rem;
+     }
+   }
+   .social-media {
+     margin: 0 0 50px;
+      li {
+        display: inline-block;
+        padding: 20px;
+        a {
+          color: #fff;
+        }
+      }
+   }
+   .copyright {
+     color: $titleColor;
+   }
+}
+

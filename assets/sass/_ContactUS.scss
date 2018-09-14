@@ -1,0 +1,56 @@
+#ContactUs {
+  padding: 100px 0;
+  h2,
+  h5 {
+    text-align: center;
+
+  }
+  .box {
+    background: #fff;
+    padding: 70px;
+    .title {
+      font-size: 2rem;
+      font-family: $displayFont;
+      margin-bottom: 2rem;
+      .changeColor {
+        color: $paragraphColor;
+      }
+    }
+      h6 {
+        font-family: $displayFont;
+        font-size: 1rem;
+        color: $black;
+        line-height: 1.7rem;
+        font-weight: 400;
+
+      }
+      p {
+        letter-spacing: 1.5px;
+        strong {
+          color: $black;
+          text-transform: capitalize;
+          font-weight: 600;
+        }
+        a {
+          color: $paragraphColor;
+          text-decoration: none;
+          letter-spacing: 1.5px;
+          &:hover {
+            color: $red;
+            font-weight: 600;
+          }
+        }
+      }
+      .time {
+        word-spacing: 10PX;
+        letter-spacing: 2px;
+      }
+      span {
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        color: $black;
+        }
+  }
+
+}
+

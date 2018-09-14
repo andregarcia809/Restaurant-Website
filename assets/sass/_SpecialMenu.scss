@@ -1,0 +1,80 @@
+#SpecialMenu  {
+  h5 {
+    font-family: $displayFont;
+    font-size: 1.2rem;
+    text-align: center;
+    letter-spacing: 8px;
+  }
+  h2 {
+    text-align: center;
+  }
+    .box {
+      background:#fff;
+      padding: 20px;
+      .box-img {
+        height: 200px;
+        background-image:   url("https://thumb1.shutterstock.com/display_pic_with_logo/74538/413328976/stock-photo-beef-steaks-on-the-grill-with-flames-413328976.jpg");
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        margin-bottom: 75px;
+      }
+      .box-img-1 {
+        height: 200px;
+        background-image:   url("https://cdn.pixabay.com/photo/2016/01/20/09/58/barbecues-1151205_960_720.jpg");
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        margin-bottom: 75px;
+      }
+      .box-img-2 {
+        height: 200px;
+        background-image:   url("https://i1.wp.com/d2771ngc3a3xfu.cloudfront.net/wp-content/uploads/2018/04/Stir-Fried-Calves-Liver-with-Peppers-and-Carrots.jpg?resize=780%2C405&ssl=1");
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        margin-bottom: 75px;
+      }
+        .price-circle {
+          position: absolute;
+           left: 50%;
+          bottom: 0;
+          font-family: $displayFont;
+          font-size: 2.7rem;
+          background: #fff;
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transform: translate( -50%, 50px);
+          box-shadow: 0px 0px 0px 10px rgba(255,255,255,0.41);
+        }
+      .title {
+        display: block;
+        font-weight: 600;
+        font-size: .9rem;
+        text-align: center;
+      }
+      .details {
+        font-weight: 300;
+        font-size: 1rem;
+        text-align: center;
+      }
+    }
+    .boxes {
+      padding-bottom: 80px;
+    }
+    a.link {
+      color: $black;
+      text-decoration-color: $paragraphColor;
+      font-family: $displayFont;
+      font-size: 1.3rem;
+      display: block;
+      text-align: center;
+      word-spacing: 2px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+}
